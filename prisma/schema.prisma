@@ -1,0 +1,37 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                  String   @id @default(cuid())
+  email               String   @unique
+  password            String
+  name                String
+  loginTimeNumber   Int      @default(0)
+  createdAt          DateTime @default(now())
+  emailVerifiedAt    DateTime?
+  
+  userSetting   UserSetting?
+  emailVerificationToken EmailVerificationToken[]
+}
+
+model EmailVerificationToken {
+  id        String   @id @default(cuid())
+  userId String @unique
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model UserSetting {
+  id        String @id @default(cuid())
+  userId    String  @unique
+  user      User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  hasNotifyLoginEmail Boolean @default(true)
+}
