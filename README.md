@@ -14,7 +14,7 @@ $ brew services start mysql<br>
 <br>
 (5) プロジェクト直下に.envファイルを作成します。.envファイルに下記を記載します。<br>
 DATABASE_URL="mysql://root:password@localhost:3306/auth_app"<br>
-NEXTAUTH_SECRET=<br>
+NEXTAUTH_SECRET="openssl rand -base64 32"<br>
 NEXTAUTH_URL=http://localhost:3000<br>
 <br>
 SMTP_HOST=localhost<br>
