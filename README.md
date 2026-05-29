@@ -28,8 +28,8 @@ NEXTAUTH_SECRET="(取得した値)"<br>
 とします。<br>
 <br>
 (6) prismaバージョン変更(prisma ver 5)<br>
-npm uninstall prisma @prisma/client<br>
-npm install prisma@5 @prisma/client@5<br>
+$npm uninstall prisma @prisma/client<br>
+$npm install prisma@5 @prisma/client@5<br>
 <br>
 (7) データ初期化<br>
 ※開発環境のみ使用（DBが初期化されます）<br>
