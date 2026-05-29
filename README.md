@@ -58,7 +58,7 @@ $ export PATH=$PATH:$(go env GOPATH)/bin<br>
 以下のコマンドでmailhog立ち上げ<br>
 $ mailhog<br>
 <br>
-もし画面が固まってしまう場合、再度同じurlでページに入っていただければ、動くようになります。
+万が一画面が固まってしまう場合、再度同じurlでページに入っていただければ、動くようになります。
 <br>
 <br>
 登録画面：localhost:3000/register<br>
