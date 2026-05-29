@@ -1,4 +1,4 @@
-mac版です<br>
+mac版です。メール認証付アプリのβ版です。<br>
 $はターミナルに入力する内容です。<br>
 (1) git cloneします。<br>
 $ git clone git@github.com:Kitahara43965/nextjs-email-auth.git<br>
