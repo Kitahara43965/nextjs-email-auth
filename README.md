@@ -37,6 +37,9 @@ $ npx prisma migrate reset<br>
 で初期化します。<br>
 Are you sure you want to reset your database? All data will be lost.<br>
 の質問には小文字でyと入力します。<br>
+カラムを合わせるために<br>
+$ npx prisma db push<br>
+とします。<br>
 <br>
 (8) nodemailerインストール<br>
 $ npm install nodemailer<br>
