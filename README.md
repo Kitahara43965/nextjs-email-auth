@@ -70,3 +70,4 @@ $npx prisma studio<br>
 ログイン画面： localhost:3000/login<br>
 ダッシュボード画面：localhost:3000/dashboard<br>
 mailhogメール受信画面: localhost:8025<br>
+prisma studio(DB確認): http://localhost:5555<br>
