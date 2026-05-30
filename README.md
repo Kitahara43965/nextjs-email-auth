@@ -58,7 +58,7 @@ $ export PATH=$PATH:$(go env GOPATH)/bin<br>
 以下のコマンドでmailhog立ち上げ<br>
 $ mailhog<br>
 <br>
-万が一画面が固まってしまう場合、再度同じurlでページに入っていただければ、動くようになります。
+万が一画面が固まってしまう場合、再度同じurlでページに入っていただければ、動くようになります。<br>
 <br>
 (*) db可視化のため別途terminal立ち上げます<br>
 現在のプロジェクト直下(名称を変更していなければnextjs-email-auth)で<br>
