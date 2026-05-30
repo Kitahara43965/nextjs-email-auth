@@ -21,6 +21,7 @@ SMTP_HOST=localhost<br>
 SMTP_PORT=1025<br>
 SMTP_USER=test@example.com<br>
 SMTP_PASS=<br>
+<br>
 (⭐️)ここで、NEXTAUTH_SECRETの値は<br>
 $ openssl rand -base64 32<br>
 と入力して値を取得します。<br>
