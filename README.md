@@ -60,6 +60,11 @@ $ mailhog<br>
 <br>
 万が一画面が固まってしまう場合、再度同じurlでページに入っていただければ、動くようになります。
 <br>
+(*) db可視化のため別途terminal立ち上げます<br>
+現在のプロジェクト直下(名称を変更していなければnextjs-email-auth)で<br>
+$npx prisma studio<br>
+と入力すれば、dbを確認できます。<br>
+
 <br>
 登録画面：localhost:3000/register<br>
 ログイン画面： localhost:3000/login<br>
